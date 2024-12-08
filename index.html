@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid bg h-sm-50vh ">
+        <div class="container">
+            <div class="header d-flex justify-content-between p-2">
+                <div class="logo">
+                    <img src="./assets/img/logo/logo.svg">
+                </div>
+                <div class="icons">
+                    <img src="./assets/img/icons/search.svg">
+                    <button class="btn theme-btn">Connect wallet</button>
+                    <img src="./assets/img/icons/profile.svg">
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center flex-column mt-5">
+                <h3 class="fw-bold text-white mt-5 m-0 sm-f">CREATE DIGITAL ART AND SELL AS NFT</h3>
+                <form class="d-flex align-items-center justify-content-center mt-3 w-sm-75 w-50 ">
+                    <button type="submit" class="btn btn-primary search">Generate</button>
+                    <input type="text" class="form-control me-2" placeholder="Prompt" aria-label="Prompt">
+
+                </form>
+                <p class=" text-white fs-14 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid hero">
+
+        <div class="container d-flex flex-column">
+            <div class="w-75 text-center text-white m-auto mt-5   ">
+                <h2 class="sm-f">WE HAVE THE BEST NFT DIGITAL ARTISTS</h2>
+                <p class="sm-f-s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat.</p>
+            </div>
+            <div class="d-flex gap-5 ps-4 pe-5 m-auto">
+                <div class="rare text-white"><b>10K+</b> <span class="d-block">RARE NFT</span></div>
+                <div class="rare text-white"><b>80K+</b> <span class="d-block">Products</span></div>
+                <div class="rare text-white"><b>05K+</b> <span class="d-block">NFT ARTIST</span></div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container Collection">
+        <h2 class="mt-3">NFT Collection</h2>
+        <div class="row">
+
+            <script>
+                for (let i = 0; i < 8; i++) {
+                    document.write(`
+                     <div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12 ">
+                        <div class="collection-card p-2">
+                <img src="./assets/img/card/01.jpg" class="img-fluid">
+               
+                <div class="d-flex justify-content-between mt-3 top">
+                    <h3><span>TUD NFT</span></h3>
+                    <p>#9840</p>
+                </div>
+                <div class="d-flex justify-content-between top">
+                    <p>Price</p>
+                    <div class="d-flex justify-content-between gap-3">
+                        <img src="./assets/img/card/02.svg" style="width: 26px;height: 26px;">
+                        <h3><span>260</span></h3>
+                    </div>
+                    
+                </div>
+                 <div class="d-flex justify-content-between buy">
+                    <span class="text-white">Buy Now</span>
+                      <img src="./assets/img/card/buy.svg">
+                    </div>
+                  </div>
+                 
+            </div>
+                    `)
+                }
+            </script>
+
+
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h3 class="fw-bold">Top Collection</h3>
+            <a href="#" class="view-more text-color">View more markets</a>
+        </div>
+        <table class="table top-collection-table">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col" class="text-end">Last Price</th>
+                    <th scope="col" class="text-end">24h Change</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <img src="./assets/img/icons/01.png" alt="Bull BTC Club" class="me-3">
+                            <span>Bull BTC Club</span>
+                        </div>
+                    </td>
+                    <td class="text-end">500.59 ETH</td>
+                    <td class="text-end">0.59 ETH</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <img src="./assets/img/icons/02.jpg" alt="Genesis Universe Medal" class="me-3">
+                            <span>Genesis Universe Medal</span>
+                        </div>
+                    </td>
+                    <td class="text-end">500.59 ETH</td>
+                    <td class="text-end">62.59 ETH</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <img src="./assets/img/icons/03.png" alt="Metabox Genesis Miner NFT" class="me-3">
+                            <span>Metabox Genesis Miner NFT</span>
+                        </div>
+                    </td>
+                    <td class="text-end">500.59 ETH</td>
+                    <td class="text-end">11.59 ETH</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <img src="./assets/img/icons/04.png" alt="Bird World Mystery Box 3" class="me-3">
+                            <span>Bird World Mystery Box 3</span>
+                        </div>
+                    </td>
+                    <td class="text-end">500.59 ETH</td>
+                    <td class="text-end">15.59 ETH</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <div class="container mt-5">
+        <div class="row">
+
+            <script>
+                for (let i = 0; i < 8; i++) {
+                    document.write(`
+            <div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12 mt-5">
+                <div class="card">
+                    <img alt="Profile image of a cartoon character with a hat" class="profile-img" height="50"
+                        src="./assets/img/card/yellow pic.svg" width="50" />
+                    <div class="verified-badge">
+                        <i class="fas fa-check-circle" style="color: #3b82f6;">
+                        </i>
+                    </div>
+                    <div class="time-badge">
+                        46d 18h 40m 10s
+                    </div>
+                    <img alt="Image of a 3D character wearing glasses and a hoodie" class="img-fluid rounded"
+                        height="300" src="./assets/img/card/02.jpg" width="300" />
+                    <div class="mt-3 p-2">
+                        <div class="card-title d-flex justify-content-between">
+                           <span> Pinky Ocean</span>
+                           <div class="">
+                            <img src="./assets/img/card/dot.svg">
+                            <img src="./assets/img/card/dot.svg">
+                            <img src="./assets/img/card/dot.svg">
+                           </div>
+                           
+                        </div>
+                        <div class="card-subtitle">
+                            0.08 ETH1/20
+                        </div>
+                        <a class="bid-link" href="#">
+                            Place a bid
+                        </a>
+                        <div class="more-options">
+                            <i class="fas fa-ellipsis-h">
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+`)}
+</script>
+            
+        </div>
+    </div>
+
+    <footer class="footer mt-5">
+
+    </footer>
+</body>
+
+</html>

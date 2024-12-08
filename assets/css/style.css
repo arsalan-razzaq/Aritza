@@ -1,0 +1,245 @@
+.bg {
+    position: relative;
+    height: 70vh;
+    background-image: url('./../img/bg/01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.icons img {
+    height: 20px;
+}
+
+/* .icons img:nth-of-type(2) {
+        width: 16px;
+    } */
+.theme-btn {
+    background: linear-gradient(62.85deg, #2636D9 16.95%, #B600D1 83.05%);
+    border-radius: 20px;
+    color: #FFF;
+
+}
+
+.search {
+    background: linear-gradient(62.85deg, #2636D9 16.95%, #B600D1 83.05%);
+    border: 0px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.hero {
+    height: 300px;
+    background: linear-gradient(180deg, #AE03D1 0%, #3233CC 100%);
+
+}
+.rare {
+    display: block;
+    
+    font-size: 14px;
+    text-align: center;
+}
+
+.rare b {
+    
+    font-weight: 900;
+    font-size: 44px;
+
+
+
+}
+
+.Collection{
+    height: auto;
+}
+.Collection img{
+    height: 250px;
+    width: 100%;
+    /* object-fit: cover; */
+    border-radius: 20px;
+}
+.Collection .icon{
+    width: 70px;
+    height: 70px;
+    /* position: relative; */
+    /* left: 96px;
+    bottom: 43px; */
+}
+/* .top{
+    position: relative;
+    top: -60px;
+} */
+.top span{
+    color:  rgba(38, 54, 217, 1);
+}
+.collection-card:hover{
+    box-shadow: 15px 15px 20px 20px rgba(0, 0, 0, 0.25);
+  
+
+}
+.collection-card:hover .buy{
+    /* box-shadow: 15px 15px 20px 20px rgba(0, 0, 0, 0.25); */
+   transform: translateY(-140px);
+   transition: 0.3s;
+
+}
+ 
+.collection-card{
+    background-color: #FFF;
+    height: 360px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: 0.3s ;
+    overflow: hidden;
+}
+.buy{
+    padding: 5px 20px;
+    background: linear-gradient(62.85deg, #2636D9 16.95%, #B600D1 83.05%);
+    border-radius: 20px;
+    transform: translateY(10px);
+    transition: 0.3s;
+
+}
+.buy img{
+    width: 20px;
+    height: 20px;
+}
+.table  th ,.table tr ,.table  td{
+    border-bottom: 0px !important;
+}
+.top-collection-table img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.text-color{
+    color: rgba(182, 0, 209, 1);
+    text-decoration: none;
+
+}
+
+.card {
+    border-radius: 15px;
+    /* padding: 20px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    /* height: 350px; */
+}
+.profile-img {
+    width: 80px;
+    height: 85px;
+    border-radius: 50%;
+    position: absolute;
+    top: -27px;
+    left: -12px;
+}
+.profile-img  img{
+    height: 80px;
+}
+ 
+.time-badge {
+    background: rgba(38, 54, 217, 1);
+
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 3px;
+    right: 4px;
+}
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-subtitle {
+    font-size: 16px;
+    color: gray;
+}
+.bid-link {
+    color: #a855f7;
+    font-weight: bold;
+    text-decoration: none;
+}
+.more-options {
+    font-size: 24px;
+    color: gray;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.footer{
+    height: 300px;
+    background-image: url('./../img/bg/bg-1.png');
+}
+
+
+
+/* responsive */
+@media (max-width: 1024px) {
+    .bg {
+      height: 70vh !important;
+    }
+    .w-sm-75{
+        width: 75% !important;
+    }
+    .m-auto{
+        margin: 0px;
+    }
+    .w-75{
+        width: 100% !important;
+    }
+    .time-badge{
+        font-size: 16px !important;
+    }
+    .profile-img{
+        height: 70px !important;
+        width: 70px !important;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo img{
+        width: 100px !important;
+    }
+  .icons{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+  }
+  .sm-f{
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .w-sm-75{
+    width: 100% !important;
+  }
+  .fs-14{
+    text-align: center;
+  }
+  .sm-f-s{
+    font-size: 10px;
+    margin-bottom: 30px;
+  }
+
+  .rare b{
+    font-size: 26px;
+  }
+
+  .rare span{
+    
+    font-size: 10px;
+  }
+
+
+}
